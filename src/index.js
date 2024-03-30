@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ContextHook from './UseContextHook/ContextHook';
+import MemoHook from './MemoHook/MemoHook';
+import Reducer from './ReducerHook/Reducer';
+import UserForm from './ReducerHook/UserForm';
+import RefHook from './RefHook/RefHook';
+import Amount from './StateHook/Amount';
+import Home from './UseCallback/Home';
+import Type from './UseEffectHook/type';
+import Basic from './UseEffectHook/basic';
+import WindowSize from './UseEffectHook/windowSize';
+import UI from './CustomHook/UI';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <UI />
   </React.StrictMode>
 );
 
